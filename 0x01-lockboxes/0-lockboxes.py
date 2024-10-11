@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
+
 def canUnlockAll(boxes):
     unlocked_boxes = set([0])
     keys = [0]
-    
+
     while keys:
         current_box = keys.pop()
         for key in boxes[current_box]:
